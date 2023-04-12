@@ -50,3 +50,10 @@ void Matakuliah::tampilMK() {
 	cout << "\nNama Matakuliah = " << namaMK << endl;
 	cout << "\nJumlah SKS = " << sks << endl;
 }
+
+int main() {
+	Mahasiswa mhs;
+	
+
+	
+}
