@@ -31,4 +31,7 @@ private:
 	string kode;
 	string namaMK;
 
+public:
+	void inputMK();
+	void tampilMK();
 };
