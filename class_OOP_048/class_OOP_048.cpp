@@ -16,5 +16,10 @@ public:
 		cin >> nama;
 	}
 
-	
+	void tampildata() {
+		cout << "\nNIM = " << nim;
+		cout << "\nNama = " << nama;
+		cout << endl;
+	}
+
 };
