@@ -8,5 +8,13 @@ private:
 	int nim;
 	string nama;
 
+public:
+	void inputdata() {
+		cout << "Masukkan NIM = ";
+		cin >> nim;
+		cout << "Masukkan Nama = ";
+		cin >> nama;
+	}
+
 	
 };
