@@ -35,3 +35,13 @@ public:
 	void inputMK();
 	void tampilMK();
 };
+
+void Matakuliah::inputMK() {
+	cout << "\nMasukkan Kode Matakuliah = ";
+	cin >> kode;
+	cout << "\nMasukkan Nama Matakuliah = ";
+	cin >> namaMK;
+	cout << "\nMasukkan Jumlah SKS = ";
+	cin >> sks;
+}
+
